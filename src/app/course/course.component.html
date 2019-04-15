@@ -1,0 +1,5 @@
+<H1>{{courseItem.name}}</H1>
+
+<ul *ngFor="let assigment of assigments">
+    <li (click)="onSelect(assigment.assigment_id)">{{assignmet.name}}</li>
+  </ul>
